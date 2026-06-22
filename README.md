@@ -1,26 +1,28 @@
 # NumerolJS [![NPM Module](https://img.shields.io/badge/NPM-V1.1.3-green)](https://github.com/alexagep/numerology-npm)
 
-A library to convert birthdate to numerology number. Can be used to study of numbers, such as the figures in a birth date, and of their supposed influence on human affairs.
+> 🇰🇷 이 저장소는 **molpass가 포크한 사본**입니다. 영어 원문은 [README.en.md](./README.en.md)를 참고하세요.
+
+생년월일을 수비학(numerology) 숫자로 변환하는 라이브러리입니다. 생년월일의 숫자처럼 수(數)와 그것이 인간사에 미친다고 여겨지는 영향을 연구하는 데 사용할 수 있습니다.
 
 
 
-## Install
+## 설치
 
-For npm users:
+npm 사용자:
 
 ```shell
 npm i numeroljs
 ```
 
-For yarn users:
+yarn 사용자:
 
 ```shell
 yarn add numeroljs
 ```
 
-## Usage
+## 사용법
 
-you can use this library for calculation in persian or gregorian dates, it converts itself in a correct way
+페르시아력(jalali) 또는 그레고리력 날짜로 계산에 사용할 수 있으며, 알맞은 방식으로 알아서 변환합니다.
 
 ``` javascript
 var numerol = require('numeroljs');
@@ -31,8 +33,8 @@ numerolInstance.handle('1989/05/22'); // 9
 numerolInstance.handle('1368/04/07', 'jalali'); // 7
 ```
 
-either you can write in american format
-you can also use two date separators ('/' or '-') 
+미국식 날짜 형식으로도 작성할 수 있습니다.
+또한 두 가지 날짜 구분자('/' 또는 '-')를 모두 사용할 수 있습니다.
 
 
 ``` javascript
@@ -45,7 +47,7 @@ console.log(numerolInstance.handle('1368-04-07', 'jalali')); // 7
 ```
 
 
-you can use convertName method to calculate chaldean Numerology number of your name 
+convertName 메서드를 사용하면 이름의 칼데아(Chaldean) 수비학 숫자를 계산할 수 있습니다.
 
 
 ``` javascript
@@ -59,19 +61,19 @@ console.log(numerolInstance.convertName('John Doe')); // 7
 
 
 
-## 🤝 Contribution
+## 🤝 기여하기
 
-I will be grateful for any help you can provide to make this project better.
-Thank you to all the people who already contributed to NumerolJS!
+이 프로젝트를 더 좋게 만들기 위한 어떤 도움이든 감사하겠습니다.
+이미 NumerolJS에 기여해 주신 모든 분들께 감사드립니다!
 
 
 [![Contributors](https://contrib.rocks/image?repo=alexagep/numerology-npm)](https://github.com/alexagep/numerology-npm/graphs/contributors)
 
 
-## License
+## 라이선스
 
-numeroljs is released under the [MIT](LICENSE) license.
+numeroljs는 [MIT](LICENSE) 라이선스로 배포됩니다.
 
 
-## Keywords
+## 키워드
 Numeroljs, Numerology

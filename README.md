@@ -61,19 +61,6 @@ console.log(numerolInstance.convertName('John Doe')); // 7
 
 
 
-## 🤝 기여하기
-
-이 프로젝트를 더 좋게 만들기 위한 어떤 도움이든 감사하겠습니다.
-이미 NumerolJS에 기여해 주신 모든 분들께 감사드립니다!
-
-
-[![Contributors](https://contrib.rocks/image?repo=alexagep/numerology-npm)](https://github.com/alexagep/numerology-npm/graphs/contributors)
-
-
 ## 라이선스
 
-numeroljs는 [MIT](LICENSE) 라이선스로 배포됩니다.
-
-
-## 키워드
-Numeroljs, Numerology
+[MIT](LICENSE)

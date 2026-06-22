@@ -5,7 +5,7 @@ import { Numeroljs } from '../../lib/index.js';
 
 
 /**
- * New interface:
+ * 새 인터페이스 사용 예시:
  */
 const numerolInstance = new Numeroljs();
 

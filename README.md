@@ -1,6 +1,6 @@
-# NumerolJS [![NPM Module](https://img.shields.io/badge/NPM-V1.1.3-green)](https://github.com/alexagep/numerology-npm)
+# NumerolJS
 
-> 🇰🇷 이 저장소는 **molpass가 포크한 사본**입니다. 영어 원문은 [README.en.md](./README.en.md)를 참고하세요.
+> 이 저장소는 molpass가 포크한 사본입니다. 영어 원문은 [README.en.md](./README.en.md)를 참고하세요.
 
 생년월일을 수비학(numerology) 숫자로 변환하는 라이브러리입니다. 생년월일의 숫자처럼 수(數)와 그것이 인간사에 미친다고 여겨지는 영향을 연구하는 데 사용할 수 있습니다.
 
